@@ -63,8 +63,9 @@ previous
 :noname
   assert-empty-stack
 
-  dmgforth-user definitions
+  forth
   seal also
+  also dmgforth-user definitions
 
   --no-kernel invert if
     s" core.fs" required
