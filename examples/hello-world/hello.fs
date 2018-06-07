@@ -40,7 +40,7 @@ previous
 ret,
 
 : clear-screen
-  _SCRN0 SCRN_VX_B SCRN_VY_B * bl fill ;
+  _SCRN0 [ SCRN_VX_B SCRN_VY_B * ]L bl fill ;
 
 main:
 
